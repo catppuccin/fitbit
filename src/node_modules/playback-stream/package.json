@@ -1,0 +1,33 @@
+{
+  "name": "playback-stream",
+  "version": "1.0.0",
+  "description": "A stream whose contents can be played back many times",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addaleax/playback-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "playback",
+    "duplex",
+    "multiple"
+  ],
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addaleax/playback-stream/issues"
+  },
+  "homepage": "https://github.com/addaleax/playback-stream#readme",
+  "devDependencies": {
+    "bl": "^1.1.2",
+    "mocha": "^3.0.2",
+    "nyc": "^8.1.0"
+  },
+  "dependencies": {
+    "readable-stream": "^2.1.5"
+  }
+}

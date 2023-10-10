@@ -1,0 +1,40 @@
+{
+  "name": "build-array",
+  "version": "1.0.0",
+  "description": "build an array of `length`",
+  "keywords": [
+    "new",
+    "array",
+    "length",
+    "build",
+    "default",
+    "value"
+  ],
+  "homepage": "https://github.com/ramitos/build-array",
+  "bugs": {
+    "url": "http://github.com/ramitos/build-array/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "licenses": {
+    "url": "https://raw.github.com/ramitos/build-array/master/license",
+    "type": "MIT"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "main": "src/build-array.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/build-array.git"
+  },
+  "scripts": {
+    "test": "make test test-coveralls"
+  },
+  "dependencies": {
+    "type-component": "0.0.1"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}

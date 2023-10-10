@@ -1,0 +1,25 @@
+<svg id="background">
+  <rect id="latteBackground" width="100%" height="100%" />
+  <rect id="frappeBackground" width="100%" height="100%" />
+  <rect id="macchiatoBackground" width="100%" height="100%" />
+  <rect id="mochaBackground" width="100%" height="100%" />
+  <rect id="oledBackground" width="100%" height="100%" />
+  <text id="hours" />
+  <text id="divider">:</text>
+  <text id="minutes" />
+
+  <image href="icons/mocha-calendar.png" id="dateIcon" class="infoIcon" x="28%" />
+  <text id="dateText" class="infoText" x="40%">XX-XX-XXXX</text>
+
+  <image href="icons/mocha-shoe-prints.png" id="stepsIcon" class="infoIcon" x="38%" />
+  <text id="stepsText" class="infoText" x="50%" >XXXXX</text>
+
+  <image href="icons/mocha-heart.png" id="heartIcon" class="infoIcon" x="38%" />
+  <text id="heartText" class="infoText" x="50%" >XXX</text>
+
+  <image href="icons/mocha-battery.png" id="batteryIcon" class="infoIcon" x="38%"/>
+  <text id="batteryText" class="infoText" x="50%">XXXX</text>  
+
+
+  <rect id="displayButton"  width="100%" height="100%" pointer-events="visible" opacity="0" />
+</svg>

@@ -1,0 +1,72 @@
+#latteBackground{
+  fill: #eff1f5;
+  display: none;
+}
+
+#frappeBackground{
+  fill: #303446;
+  display: none;
+}
+
+#macchiatoBackground{
+  fill: #24273a;
+  display: none;
+}
+
+#mochaBackground{
+  fill: #1e1e2e;
+}
+
+#oledBackground{
+  fill: #000000;
+  display: none;
+}
+
+
+
+#hours {
+  font-size: 110;
+  text-length: 2;
+  text-anchor: middle;
+  x: 25%;
+  y: 60%;
+  fill: #8AADF4;
+}
+
+#divider {
+  font-size: 110;
+  text-length: 2;
+  text-anchor: middle;
+  x: 50%;
+  y: 57%;
+  fill: #cad3f5;
+}
+
+#minutes {
+  font-size: 110;
+  text-length: 2;
+  text-anchor: middle;
+  x: 75%;
+  y: 60%;
+  fill: #cad3f5;
+}
+
+.hidden{
+  display: none;
+}
+
+.infoIcon {
+  y: 83%;
+  height: 25;
+  width: 25;
+  text-anchor: middle;
+  display: none;
+}
+
+.infoText {
+  font-size: 22;
+  text-length: 5;
+  y: 89%;
+  fill: #cad3f5;
+  display: none;
+}
