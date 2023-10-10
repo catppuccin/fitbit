@@ -2,11 +2,10 @@ import clock from "clock";
 import { battery } from "power";
 import { HeartRateSensor } from "heart-rate";
 import { today as todayActivity } from "user-activity";
-import { display } from "display"
 import * as document from "document";
 import { preferences } from "user-settings";
 import * as simpleSettings from "./simple/device-settings";
-import { Flavors, getFlavor } from "./colors";
+import { getFlavor } from "./colors";
 import { applySettings, hideElement, showElement, InfoSection } from "./settings";
 
 
