@@ -9,16 +9,16 @@
   <text id="minutes" />
 
   <image href="icons/mocha-calendar.png" id="dateIcon" class="infoIcon" x="28%" />
-  <text id="dateText" class="infoText" x="40%">XX-XX-XXXX</text>
+  <text id="dateText" class="infoText" x="40%">--         </text>
 
   <image href="icons/mocha-shoe-prints.png" id="stepsIcon" class="infoIcon" x="38%" />
-  <text id="stepsText" class="infoText" x="50%" >XXXXX</text>
+  <text id="stepsText" class="infoText" x="50%" >--   </text>
 
   <image href="icons/mocha-heart.png" id="heartIcon" class="infoIcon" x="38%" />
-  <text id="heartText" class="infoText" x="50%" >XXX</text>
+  <text id="heartText" class="infoText" x="50%" >-- </text>
 
   <image href="icons/mocha-battery.png" id="batteryIcon" class="infoIcon" x="38%"/>
-  <text id="batteryText" class="infoText" x="50%">XXXX</text>  
+  <text id="batteryText" class="infoText" x="50%">-- </text>  
 
 
   <rect id="displayButton"  width="100%" height="100%" pointer-events="visible" opacity="0" />

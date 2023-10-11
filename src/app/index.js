@@ -7,7 +7,7 @@ import { preferences } from "user-settings";
 import * as simpleSettings from "./simple/device-settings";
 import { getFlavor } from "./colors";
 import { applySettings, hideElement, showElement, InfoSection } from "./settings";
-
+import { me as appbit } from "appbit"
 
 clock.granularity = "seconds";
 
@@ -82,13 +82,17 @@ document.getElementById("displayButton").addEventListener("click", (e) => {
 // Heart Rate
 // ===========================
 
-const heartRateMonitor = new HeartRateSensor({ frequency: 1 });
+if (appbit.permissions.granted("access_activity")) {
+  const heartRateMonitor = new HeartRateSensor({ frequency: 1 });
 
-heartRateMonitor.addEventListener("reading", () => {
-  heartText.text = heartRateMonitor.heartRate;
-});
+  heartRateMonitor.addEventListener("reading", () => {
+    heartText.text = heartRateMonitor.heartRate;
+  });
 
-heartRateMonitor.start();
+  heartRateMonitor.start();
+} else {
+  heartText.text = "-- "
+}
 
 
 
@@ -123,8 +127,10 @@ clock.ontick = (event) => {
   minutesText.text = minutes;
   setDate();
 
-  if (todayActivity) {
+  if (todayActivity && appbit.permissions.granted("access_heart_rate")) {
     stepsText.text = todayActivity.adjusted.steps;
+  } else {
+    stepsText.text = "--   ";
   }
 }
 
@@ -165,25 +171,25 @@ function settingsCallback(data) {
     return;
   }
 
-    applySettings(
-      getFlavor(data.flavor),
-      data.latteAccent,
-      data.frappeAccent,
-      data.macchiatoAccent,
-      data.mochaAccent,
-      data.oledAccent,
-      data.showClockDivider,
-      data.tintHours,
-      data.tintMinutes,
-    );
+  applySettings(
+    getFlavor(data.flavor),
+    data.latteAccent,
+    data.frappeAccent,
+    data.macchiatoAccent,
+    data.mochaAccent,
+    data.oledAccent,
+    data.showClockDivider,
+    data.tintHours,
+    data.tintMinutes,
+  );
 
-    useAmericanDate = data.useAmericanDate;
+  useAmericanDate = data.useAmericanDate;
 
-    if(useAmericanDate === undefined){
-      useAmericanDate = false;
-    }
-    
-    setDate();
-  
+  if (useAmericanDate === undefined) {
+    useAmericanDate = false;
+  }
+
+  setDate();
+
 }
 simpleSettings.initialize(settingsCallback);
