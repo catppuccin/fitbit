@@ -21,19 +21,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/latte.png" />
+<img height="200" width="200" src="assets/latte.png" />
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/frappe.png" />
+<img height="200" width="200" src="assets/frappe.png" />
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/macchiato.png" />
+<img height="200" width="200" src="assets/macchiato.png" />
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/mocha.png" />
+<img height="200" width="200" src="assets/mocha.png" />
 </details>
 
 ## Usage
