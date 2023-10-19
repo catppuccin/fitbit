@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Go to the clock galery in your fitbit app or click [here](https://gallery.fitbit.com/details/845086d5-34d2-4765-b099-34ebd718b1da) to open it in the website
+1. Go to the clock gallery in your fitbit app or click [here](https://gallery.fitbit.com/details/845086d5-34d2-4765-b099-34ebd718b1da) to open it in the website
 2. Search for catppuccin
 3. Install and give all permissions
 4. Enjoy
