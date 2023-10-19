@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://gallery.fitbit.com/">Fitbit</a>
+	Catppuccin for <a href="https://fitbit.com/">Fitbit</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -37,13 +37,14 @@
 ## Usage
 
 1. Go to the clock galery in your fitbit app or click [here](https://gallery.fitbit.com/details/845086d5-34d2-4765-b099-34ebd718b1da) to open it in the website
-2. Search for catppuccin
+2. Search for Catppuccin
 3. Install and give all permissions
 4. Enjoy
 
 ## 💝 Thanks to
 
 - [lighttigerXIV](https://github.com/lighttigerXIV)
+- [LeBazarDeBryan](https://github.com/LeBazarDeBryan)
 
 &nbsp;
 
