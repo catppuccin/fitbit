@@ -27,5 +27,8 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.2.0"
   }
 }
